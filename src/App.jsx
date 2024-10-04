@@ -40,15 +40,15 @@ function App() {
           </div>
 
           <div className='mt-8 relative grid grid-cols-2 grid-rows-2 custom-flex-wrap-first-title:grid-cols-1 custom-flex-wrap-first-title:grid-rows-3'>
-            <h2 className='text-responsive-h2 inline-block col-start-2 col-end-3 row-start-1 row-end-2 custom-flex-wrap-first-title:row-start-1 custom-flex-wrap-first-title:row-end-2 custom-flex-wrap-first-title:col-start-1 custom-flex-wrap-first-title:col-end-2'>Controla tus rutinas</h2>
-            <div className='col-start-1 col-end-2 row-start-1 row-end-3 custom-flex-wrap-first-title:row-start-2 custom-flex-wrap-first-title:row-end-3 custom-flex-wrap-first-title:col-start-1 custom-flex-wrap-first-title:col-end-2'>
+            <h2 className='text-responsive-h2 inline-block col-start-2 col-end-3 row-start-1 row-end-2 custom-flex-wrap-first-title:row-start-1 custom-flex-wrap-first-title:row-end-2 custom-flex-wrap-first-title:col-start-1 custom-flex-wrap-first-title:col-end-2 custom-flex-wrap-first-title:pt-96 custom-flex-wrap-little-devices:pt-16'>Controla tus rutinas</h2>
+            <div className='flex justify-center items-center col-start-1 col-end-2 row-start-1 row-end-3 custom-flex-wrap-first-title:row-start-2 custom-flex-wrap-first-title:row-end-3 custom-flex-wrap-first-title:col-start-1 custom-flex-wrap-first-title:col-end-2 custom-flex-wrap-little-devices:-mt-14'>
             <div className='bg-carne rounded-full p-9 '>
               <img className='h-responsive-height-first-image' src={desktopAndMobile} alt='Desktop and mobile view'></img>
             </div>
             </div>
             
-            <div className='col-start-2 col-end-3 row-start-2 row-end-3 custom-flex-wrap-first-title:row-start-3 custom-flex-wrap-first-title:row-end-4 custom-flex-wrap-first-title:col-start-1 custom-flex-wrap-first-title:col-end-2'>
-              <ul className='text-responsive-h4 text-start custom-flex-wrap-first-title:text-center'>
+            <div className='-m-24 flex justify-center col-start-2 col-end-3 row-start-2 row-end-3 custom-flex-wrap-first-title:row-start-3 custom-flex-wrap-first-title:row-end-4 custom-flex-wrap-first-title:col-start-1 custom-flex-wrap-first-title:col-end-2 custom-flex-wrap-first-title:mt-6'>
+              <ul className='text-responsive-ul text-start custom-flex-wrap-first-title:text-center'>
                 <li>Registro de series y repes</li>
                 <li>Control preciso del RIR</li>
                 <li>Acceso rapido al historial</li>

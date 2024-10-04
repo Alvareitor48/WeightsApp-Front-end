@@ -14,7 +14,8 @@ export default {
       fontSize: {
         'responsive-h1': ['clamp(1.5em, 11vw, 5em)'],
         'responsive-h2': ['clamp(1.1em, 9.64vw, 4em)'],
-        'responsive-h4': ['clamp(0.5em,5vw, 1.5em)']
+        'responsive-h4': ['clamp(0.5em,5vw, 1.5em)'],
+        'responsive-ul': ['clamp(1em,5vw, 2.5em)']
       },
       width:{
         'responsive-width': ['clamp(12em, 90vw, 40em)'],
@@ -25,7 +26,8 @@ export default {
         'responsive-first-button-height': ['clamp(2.5em, 8vw, 3em)']
       },
       screens:{
-        'custom-flex-wrap-first-title':{max:'1309px'}
+        'custom-flex-wrap-first-title':{max:'1309px'},
+        'custom-flex-wrap-little-devices':{max:'755px'},
       }
       
     },

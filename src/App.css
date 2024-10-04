@@ -137,27 +137,6 @@
   }
 
 /* Fin de boton animacion */
-/*
-
-@media (max-width: 1309px) {
-  home-div-screen{
-    grid-template-rows: repeat(3,minmax(0,1fr));
-    grid-template-columns: repeat(1,minmax(0,1fr));
-  }
-  home-h2{
-    grid-row-start:1;
-    grid-row-end:2;
-  }
-  home-div-image{
-    grid-row-start:2;
-    grid-row-end:3;
-  }
-  home-div-ul{
-    grid-row-start:3;
-    grid-row-end:4;
-  }
-}
-*/
 
 
 
