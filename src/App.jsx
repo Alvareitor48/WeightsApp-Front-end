@@ -2,7 +2,10 @@ import './App.css'
 import { Footer } from './core/components/Footer';
 import { Header } from './core/components/Header';
 import { FirstHomeMainContainer } from './modules/home/components/FirstHomeMainContainer';
+import { FunctionsGrid } from './modules/home/components/FunctionsGrid';
 import { MobileAndDesktopHomeContainer } from './modules/home/components/MobileAndDesktopContainer';
+
+
 function App() {
   return (
     <>
@@ -28,6 +31,7 @@ function App() {
               <li>Rutinas personalizadas</li>
               <li>Hechas por profesionales</li></>}>
           </MobileAndDesktopHomeContainer>
+          <FunctionsGrid></FunctionsGrid>
         </main>
         <Footer></Footer>
       </div>
