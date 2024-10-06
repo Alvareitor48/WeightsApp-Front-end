@@ -11,7 +11,7 @@ function App() {
     <>
       <div className='grid grid-rows-[auto,1fr,auto]'>
         <Header></Header>
-        <main className='p-2 bg-azulFondo'>
+        <main className='p-2 bg-custom-gradient'>
           <FirstHomeMainContainer></FirstHomeMainContainer>
           <MobileAndDesktopHomeContainer
             Imageorientation={'left'}
@@ -32,6 +32,9 @@ function App() {
               <li>Hechas por profesionales</li></>}>
           </MobileAndDesktopHomeContainer>
           <FunctionsGrid></FunctionsGrid>
+          <button className='m-12 mt-42 p-36 pt-12 pb-12 rounded-xl bg-custom-gradient3'>
+            <h2 className='text-responsive-h2 inline-block'>Empezar</h2>
+          </button>
         </main>
         <Footer></Footer>
       </div>
