@@ -4,9 +4,11 @@ import { Header } from './core/components/Header';
 import { FirstHomeMainContainer } from './modules/home/components/FirstHomeMainContainer';
 import { FunctionsGrid } from './modules/home/components/FunctionsGrid';
 import { MobileAndDesktopHomeContainer } from './modules/home/components/MobileAndDesktopContainer';
+import { motion, useScroll } from 'framer-motion';
 
 
 function App() {
+  const { scrollY } = useScroll();
   return (
     <>
       <div className='grid grid-rows-[auto,1fr,auto]'>
@@ -32,9 +34,9 @@ function App() {
               <li>Hechas por profesionales</li></>}>
           </MobileAndDesktopHomeContainer>
           <FunctionsGrid></FunctionsGrid>
-          <button className='m-12 mt-42 p-36 pt-12 pb-12 rounded-xl bg-custom-gradient3'>
+          <div className=' mt-28 ml-12 mr-12 rounded-xl bg-custom-gradient3'>
             <h2 className='text-responsive-h2 inline-block'>Empezar</h2>
-          </button>
+          </div>
         </main>
         <Footer></Footer>
       </div>
