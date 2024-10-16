@@ -5,7 +5,7 @@ import { motion } from 'framer-motion'
 export const MobileAndDesktopHomeContainer = ({Imageorientation,title,li}) => {
     return (
       <div className='mt-40 relative grid grid-cols-2 grid-rows-2 custom-flex-wrap-first-title:grid-cols-1 custom-flex-wrap-first-title:grid-rows-3'>
-        <motion.h2 className={`text-responsive-h2 inline-block ${Imageorientation == 'left' ? 'col-start-2 col-end-3' : 'col-start-1 col-end-2'} row-start-1 row-end-2 custom-flex-wrap-first-title:row-start-1 custom-flex-wrap-first-title:row-end-2 custom-flex-wrap-first-title:col-start-1 custom-flex-wrap-first-title:col-end-2 custom-flex-wrap-first-title:pt-96 custom-flex-wrap-little-devices:pt-16`}
+        <motion.h2 className={`mb-16 text-responsive-h2 inline-block ${Imageorientation == 'left' ? 'col-start-2 col-end-3' : 'col-start-1 col-end-2'} row-start-1 row-end-2 custom-flex-wrap-first-title:row-start-1 custom-flex-wrap-first-title:row-end-2 custom-flex-wrap-first-title:col-start-1 custom-flex-wrap-first-title:col-end-2 custom-flex-wrap-first-title:pt-96 custom-flex-wrap-little-devices:pt-16`}
         initial={{ opacity: 0, x: "60%"}}
         whileInView={{ opacity: 1, x: 0}}
         transition={{ duration: 1 }}
