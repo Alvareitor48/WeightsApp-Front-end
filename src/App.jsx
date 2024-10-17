@@ -2,13 +2,18 @@ import './App.css'
 import { Footer } from './core/components/Footer';
 import { Header } from './core/components/Header';
 import { FirstHomeMainContainer } from './modules/home/components/FirstHomeMainContainer';
+import { FunctionsGrid } from './modules/home/components/FunctionsGrid';
 import { MobileAndDesktopHomeContainer } from './modules/home/components/MobileAndDesktopContainer';
+import { motion, useScroll } from 'framer-motion';
+
+
 function App() {
+  const { scrollY } = useScroll();
   return (
     <>
       <div className='grid grid-rows-[auto,1fr,auto]'>
         <Header></Header>
-        <main className='p-2 bg-azulFondo'>
+        <main className='p-2 bg-custom-gradient'>
           <FirstHomeMainContainer></FirstHomeMainContainer>
           <MobileAndDesktopHomeContainer
             Imageorientation={'left'}
@@ -28,6 +33,10 @@ function App() {
               <li>Rutinas personalizadas</li>
               <li>Hechas por profesionales</li></>}>
           </MobileAndDesktopHomeContainer>
+          <FunctionsGrid></FunctionsGrid>
+          <div className=' mt-28 ml-12 mr-12 rounded-xl bg-custom-gradient3'>
+            <h2 className='text-responsive-h2 inline-block'>Empezar</h2>
+          </div>
         </main>
         <Footer></Footer>
       </div>

@@ -18,7 +18,7 @@ export default {
         'responsive-ul': ['clamp(1em,5vw, 2.5em)']
       },
       width:{
-        'responsive-width': ['clamp(12em, 90vw, 40em)'],
+        'responsive-width': ['clamp(16em, 90vw, 40em)'],
         'responsive-first-button-width': ['clamp(8em, 16vw, 9em)']
       },
       height:{

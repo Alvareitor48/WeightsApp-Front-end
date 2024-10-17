@@ -1,6 +1,5 @@
 #root {
   margin: 0 auto;
-  padding: 0.5%;
   text-align: center;
 }
 
@@ -137,6 +136,11 @@
   }
 
 /* Fin de boton animacion */
+
+.text-shadow-md {
+  /* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); */
+  text-shadow: 2px 2px 4px #6A0574;
+}
 
 
 
