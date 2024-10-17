@@ -1,9 +1,5 @@
 import homeImage from '../../../assets/images/HomeImage.png'
 import { motion } from 'framer-motion'
-const homeFirstContainerVariants = {
-  show:{opacity:1, x:0},
-  notShow:{opacity:0, x:"-100%"}
-}
 export const FirstHomeMainContainer = () => {
   return (
     <div className='mt-8 relative flex flex-wrap justify-around'>
@@ -15,7 +11,7 @@ export const FirstHomeMainContainer = () => {
         <h1 className='text-responsive-h1 inline-block leading-tight'>La web que mejora tus entrenamientos</h1>
         <h4 className='text-responsive-h4 inline-block pt-8'>Maneja tu estilo de vida de la forma correcta con ayuda de expertos en el fitness</h4>
       </motion.div>
-      <motion.div className='relative pt-8 pb-8 w-responsive-width'
+      <motion.div className='relative py-8 w-responsive-width'
         initial={{ opacity: 0, x: "100%" }}
         animate={{ opacity: 1, x: 0 }}
         transition={{ duration: 1 }}

@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import desktopAndMobile from '../../../assets/images/desktopAndMobile.png'
 import { motion } from 'framer-motion'
 
